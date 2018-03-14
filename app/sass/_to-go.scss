@@ -1,0 +1,38 @@
+.to-go{
+    padding-bottom: 70px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+   @media(max-width: 780px){
+        padding-bottom: 30px;
+        padding-top: 0;
+    }
+    @media(max-width: 600px){
+        padding-bottom: 15px;
+        padding-top: 0;
+    }
+}
+
+.btn_to-go{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    cursor: pointer;
+    
+    @media(max-width:600px){
+        padding: 5px 10px;
+    }
+    
+    a{
+         color: #0062b3;
+    }
+}
+.js-activ{
+    background: #0a5ba0;
+    
+    a{
+         color: #fff;
+    }
+}
