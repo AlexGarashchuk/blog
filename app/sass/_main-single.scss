@@ -8,6 +8,10 @@
         padding-left: 15px;
     }
         
+         @media(max-width:480px){
+        padding: 0 5px;
+    }
+        
         .logo_head{
             letter-spacing: -0.9px;
         }
@@ -69,15 +73,29 @@
         padding: 15px 10px;
     }
     
+    @media(max-width:480px){
+      flex-direction: column;
+    }
+    
     .single-icon{
         padding-right: 0;
         padding-left: 10px;
+        
+         @media(max-width: 480px){
+               justify-content: space-between;
+            }
         
         .single-icon_massege{
             margin-left: 40px;
             
             @media(max-width: 1120px){
                 margin-left: 15px;
+            }
+            
+            @media(max-width: 480px){
+                margin-top: 15px;
+                margin-left: 0;
+                padding-left: 0;
             }
         }
     }
